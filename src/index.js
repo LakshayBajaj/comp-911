@@ -2,11 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import DialLists from './components/dialLists';
+import DialListsDark from './components/dialListsDark';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
     <DialLists />
+    <br />
+    <DialListsDark />
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -2,12 +2,12 @@ import React from 'react';
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import Row from './buttons'
 
-class DialLists extends React.Component {
+class DialListsDark extends React.Component {
     render() {
         return (
             
-            <div class="container border border-dark" >
-                <h5 style={{fontSize: '23px', fontWeight: 'bold'}} className="mt-2 ">
+            <div class="bg-dark container border border-dark" >
+                <h5 style={{fontSize: '23px', fontWeight: 'bold'}} className="mt-2 text-light">
                     Dial Lists
                 </h5>
                 <div class="w-50 input-group input-group-sm mb-3">
@@ -35,4 +35,4 @@ class DialLists extends React.Component {
     }
 }
 
-export default DialLists;
+export default DialListsDark;
