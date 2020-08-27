@@ -1,0 +1,48 @@
+@media (max-width:576px) and (min-width:300px) {
+    h5 {
+        font-size: 17px;
+    }
+
+    i {
+        font-size: 27px;
+        margin-right: 7px;
+    }
+}
+
+@media (max-width:768px) and (min-width: 576px) {
+    h5 {
+        font-size: 18px;
+    }
+
+    i {
+        font-size: 27px;
+        margin-right: 8px;
+    }
+}
+
+@media (max-width:992px) and (min-width: 768px) {
+    h5 {
+        font-size: 19px;
+    }
+
+    i {
+        font-size: 30px;
+        margin-right: 12px;
+    }
+}
+
+@media (max-width:2000px) and (min-width: 992px) {
+    h5 {
+        font-size: 22px;
+    }
+
+    i {
+        font-size: 33px;
+        margin-right: 20px;
+    }
+}
+
+h5{
+    font-weight: 450;
+}
+

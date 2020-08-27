@@ -6,7 +6,7 @@ class DialLists extends React.Component {
     render() {
         return (
             <div class="container border border-dark" >
-                <h5 className="mt-2">
+                <h5 style={{fontSize: '23px', fontWeight: 'bold'}} className="mt-2">
                     Dial Lists
                 </h5>
                 <div class="w-50 input-group input-group-sm mb-3">
