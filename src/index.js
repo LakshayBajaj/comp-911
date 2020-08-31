@@ -3,13 +3,23 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import DialLists from './components/dialLists';
 import DialListsDark from './components/dialListsDark';
+import DialBox from './components/dialbox';
+import DialBoxDark from './components/dialboxdark';
+import CallDetails from './components/calldetails';
+import CallDetailsDark from './components/calldetailsdark';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <DialLists />
+    <CallDetails />
     <br />
-    <DialListsDark />
+    <CallDetailsDark />
+    <br />
+    <DialBox />
+    <br />
+    <DialBoxDark />
+
+    
   </React.StrictMode>,
   document.getElementById('root')
 );
